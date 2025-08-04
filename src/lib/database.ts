@@ -1,4 +1,4 @@
-import { createServerSupabaseClient } from './supabase'
+import { createServerSupabaseClient } from './supabase-server'
 import { Database, User, Mailbox, Email, InsertMailbox, InsertEmail, UpdateEmail } from '@/types/database'
 
 export class DatabaseService {

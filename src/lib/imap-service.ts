@@ -1,6 +1,6 @@
 import * as Imap from 'node-imap'
 import { simpleParser, ParsedMail } from 'mailparser'
-import { createServiceSupabaseClient } from './supabase'
+import { createServiceSupabaseClient } from './supabase-server'
 import { DatabaseService } from './database'
 
 interface ImapConfig {

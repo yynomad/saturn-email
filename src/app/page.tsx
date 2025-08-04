@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import { createServerSupabaseClient } from '@/lib/supabase'
+import { createServerSupabaseClient } from '@/lib/supabase-server'
 import { DatabaseService } from '@/lib/database'
 import { MailboxDashboard } from '@/components/dashboard/mailbox-dashboard'
 import { DashboardSkeleton } from '@/components/dashboard/dashboard-skeleton'

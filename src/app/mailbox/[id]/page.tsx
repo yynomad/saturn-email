@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 import { notFound } from 'next/navigation'
-import { createServerSupabaseClient } from '@/lib/supabase'
+import { createServerSupabaseClient } from '@/lib/supabase-server'
 import { DatabaseService } from '@/lib/database'
 import { MailboxHeader } from '@/components/mailbox/mailbox-header'
 import { EmailList } from '@/components/mailbox/email-list'

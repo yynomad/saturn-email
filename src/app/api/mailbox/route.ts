@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createServerSupabaseClient } from '@/lib/supabase'
+import { createServerSupabaseClient } from '@/lib/supabase-server'
 import { DatabaseService } from '@/lib/database'
 import { mailboxGenerator } from '@/lib/mailbox-generator'
 
